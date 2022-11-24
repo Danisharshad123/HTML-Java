@@ -15,11 +15,21 @@ function myFunction() {
     document.getElementById('demo').innerHTML = "The value of z is " + z + ".";
 } */
 
-
+/* 
 const Fruits = ['Apple','Banana','Grapes'];
 document.getElementById('demo').innerHTML = Fruits;
 
 function myFunction() {
     Fruits.push ('lemon');
     document.getElementById('demo').innerHTML=Fruits;
+}
+ */
+
+
+const Fruits = ['apple','banana'];
+document.getElementById('myid').innerHTML = Fruits;
+
+function myFunction() {
+    Fruits.push('lemon');
+    document.getElementById('myid').innerHTML=Fruits;
 }
