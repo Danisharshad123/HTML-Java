@@ -26,10 +26,12 @@ function myFunction() {
  */
 
 
-const Fruits = ['apple','banana'];
-document.getElementById('myid').innerHTML = Fruits;
+const Fruits = new Map
+([ ['apple',100],
+  ['banana',60],
+  ['orange',150],
+  ['cherry',200]
+]);
 
-function myFunction() {
-    Fruits.push('lemon');
-    document.getElementById('myid').innerHTML=Fruits;
-}
+document.getElementById('demo').innerHTML = Fruits.get('orange');
+
